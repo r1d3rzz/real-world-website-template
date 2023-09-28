@@ -1,7 +1,3 @@
-body {
-  background-color: #000;
-}
-
 #container {
   width: 1080px;
   margin: 0 auto;
@@ -246,3 +242,154 @@ nav {
 }
 
 /* End Services  */
+
+/* Segment Watch  */
+
+.segment-title {
+  margin: 30px 0 10px 0;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.segment-title > h1 {
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+#left-right-segment-watch-container {
+  display: flex;
+  font-family: sans-serif;
+  height: 320px;
+}
+
+#left-segment {
+  width: 70%;
+  background-color: #e0e0e0;
+  display: flex;
+  align-items: flex-end;
+}
+
+#left-segment > div {
+  width: 60%;
+  padding: 20px;
+}
+
+#left-segment > div > h1 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#left-segment > div > button {
+  background-color: red;
+  margin-top: 10px;
+  background-color: rgb(40, 33, 88);
+  color: #fff;
+  border: none;
+  outline: none;
+  padding: 5px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#left-segment > div > button:hover {
+  background-color: rgba(40, 33, 88, 0.425);
+}
+
+#right-segment {
+  width: 30%;
+}
+
+.steps {
+  display: flex;
+  align-items: center;
+}
+
+.steps > div > h1 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.steps > div {
+  padding: 20px;
+}
+
+.step_1 {
+  height: 33.3%;
+  background-color: #424242;
+  position: relative;
+}
+
+.step_1:before {
+  content: " ";
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-left: 10px solid transparent;
+  border-right: 10px solid #424242;
+  border-bottom: 10px solid transparent;
+  position: absolute;
+  right: 100%;
+}
+
+.step_2 {
+  background-color: #616161;
+  height: 33.3%;
+}
+
+.step_3 {
+  background-color: #9e9e9e;
+  height: 33.3%;
+}
+
+/*End Segment Watch  */
+
+/* footer  */
+
+#employee-voice-container {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+#employee-voice-container > h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+#employee-voice-container > input {
+  width: 600px;
+  height: 20px;
+  padding: 10px;
+  font-size: 18px;
+  margin-left: 20px;
+  background-color: #eeeeee;
+  border: none;
+  outline: none;
+}
+
+#employee-voice-container > button {
+  height: 35px;
+  font-size: 10px;
+  width: 100px;
+  outline: none;
+  color: #fff;
+  background-color: #424242;
+  transition: 0.2s ease all;
+}
+
+#employee-voice-container > button:hover {
+  background-color: #616161;
+}
+
+#employee-voice-container > div {
+  width: 600px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+/* end footer  */
