@@ -1,6 +1,11 @@
+body {
+  background-color: #000;
+}
+
 #container {
   width: 1080px;
   margin: 0 auto;
+  background-color: #fafafa;
 }
 
 #top-bar {
@@ -57,3 +62,40 @@
 }
 
 /*End For Search Btn  */
+
+/* Header  */
+
+header {
+  position: relative;
+  height: 100px;
+}
+
+#user-info {
+  display: flex;
+  align-items: center;
+}
+
+#user-tools {
+  position: absolute;
+  bottom: 0;
+  right: 10%;
+  background-color: rgb(107, 197, 107);
+  color: #fff;
+  padding: 6px 60px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  display: flex;
+}
+
+.userInfo > h1 {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#user-tools::after {
+  content: url("https://api.iconify.design/fa-solid:tools.svg");
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+/*End Header  */
